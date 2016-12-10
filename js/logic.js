@@ -28,9 +28,6 @@ var Snake = function(){
 		}
 	}
 	
-	this.drawNose =function (){
-		// if(this.allowVertical)
-	}
 	this.collieded = function(){
 		for( var i in this.tail ){
 			if ( this.tail[ i ].x == this.tmpx &&  this.tail[ i ].y == this.tmpy ){
@@ -54,7 +51,7 @@ var Snake = function(){
 	
 		if ( this.collieded() ){
 			alert( "lolzz: Game over");
-		// }
+		}
 		if( this.eat() )
 		{
 			this.total++;
@@ -107,7 +104,7 @@ function setup() {
    createCanvas(640, 500);    
    snake = new Snake();
    snake.setNewFood();
-   frameRate(2);
+   frameRate(15);
 }
 
 function keyPressed(){
