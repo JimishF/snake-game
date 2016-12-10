@@ -1,2 +1,4 @@
 # snake-game
-Snake game built on top of p5.js
+Snake game built with HTML5 canvas and Javascript on top of p5.js
+<br>
+See demo <a href="jimishf.github.io/snake-game">here</a>.
