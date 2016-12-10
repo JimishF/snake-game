@@ -29,7 +29,7 @@ var Snake = function(){
 	}
 	
 	this.drawNose =function (){
-		if(this.allowVertical)
+		// if(this.allowVertical)
 	}
 	this.collieded = function(){
 		for( var i in this.tail ){
@@ -54,7 +54,7 @@ var Snake = function(){
 	
 		if ( this.collieded() ){
 			alert( "lolzz: Game over");
-		}
+		// }
 		if( this.eat() )
 		{
 			this.total++;
